@@ -24,13 +24,12 @@ app.controller('FormController' , function($scope){
 	$scope.submitForm = function(isValid) {
 		if(isValid) {
 			alert('Congratulations! you registeration has been successful')
-			
-			$scope.name="";
-			$scope.username="";
-			$scope.email="";
-			$scope.pwd="";
-			$scope.password="";
 		}
+		
+		$scope.name="";
+		$scope.username="";
+		$scope.email="";
+		$scope.pwd="";
+		$scope.password="";
 	}
-});
-
+})
